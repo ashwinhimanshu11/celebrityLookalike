@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.live-feed video {
+    width: 600px;
+    max-height: 400px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
+
+.lookalike {
+    text-align: center;
+    flex: 1;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#name {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #FFD700;
+}
+
+#lookalike {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
